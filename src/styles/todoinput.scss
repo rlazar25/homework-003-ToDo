@@ -1,0 +1,22 @@
+.todoinput {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    &_input {
+        width: 50%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+
+    }
+
+    &_button {
+        width: 50%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+
+    }
+}
