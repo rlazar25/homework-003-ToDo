@@ -1,0 +1,24 @@
+.todotask{
+    &_task{
+        border: 1px solid dodgerblue ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        border-radius: 20px;
+
+        p{
+            font-size: 1.2rem;
+        }
+        
+        button{
+            font-size: 1rem;
+            padding: 10px 20px;
+            background: dodgerblue;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+}

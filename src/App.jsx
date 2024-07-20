@@ -6,14 +6,14 @@ function App() {
   const [todoTask, setTodoTask] = useState([]);
 
   useEffect(() => {
-    console.log(todoTask);
+    
   }, [todoTask]);
 
   return (
     <div className="container">
       <h1 className="title">To Do App</h1>
       <TodoInputComponent todoTask={todoTask} setTodoTask={setTodoTask} />
-      <TodoTaskComponent />
+      <TodoTaskComponent todoTask={todoTask} />
     </div>
   );
 }
